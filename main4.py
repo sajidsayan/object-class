@@ -1,5 +1,4 @@
 from abc import ABC, abstractmethod
-#""
 class Shape(ABC):
     @abstractmethod
     def area(self):
@@ -34,5 +33,5 @@ def main():
         print(f"{shape.__class__.__name__}:")
         print(f" Area: {shape.area()}")
         print(f" Perimeter: {shape.perimeter()}")
-    if __name__ == "__main__":
+if __name__ == "__main__":
         main()
